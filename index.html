@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mustache's</title>
+  <link rel="preload" href="css/normalize.css" as="style" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="preload" href="css/styles.css" as="style" />
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- <header>
+      <img class="dise" src="img/CareTechDocument.png" > 
+        <h1 class="título"> CareTech </h1>
+    </header> -->
+
+  <div class="nav-bg">
+    <nav class="navegacion-principal contenedor">
+      <img class="logo" src="img/logo2.png" />
+      <a href="#">Inicio </a>
+      <a href="sobreNosotros.html">Sobre nosotros </a>
+      <a href="#contacto">Contacto </a>
+      <a href="https://mustaches-citas-reservar.mnz.dom.my.id/">Agenda tu Cita</a>
+    </nav>
+  </div>
+
+  <!--  comentar html-->
+
+  <section class="hero">
+    <div class="contenido-hero">
+      <h1 class="título principal">Mustache's</h1>
+
+      <div class="ubication">
+        <span>Cúcuta, Colombia</span>
+      </div>
+      <a class="boton" href="#contacto">CONTACTAR</a>
+    </div>
+  </section>
+
+  <main class="contenedor sombra">
+    <h2 class="título">Nuestros Servicios</h2>
+    <div class="servicios">
+      <section class="circulos">
+        <h3>Cortes de cabello</h3>
+
+        <div class="iconos">
+          <img class="icons" src="img/iconos/maquina.png">
+        </div>
+
+        <p class="título">
+          Nuestros estilistas están aquí para brindarte cortes de cabello que se adapten a tu estilo personal y resalten
+          tus mejores rasgos. Ya sea un corte clásico o una propuesta moderna, cada detalle es importante para que
+          salgas con el look que deseas.
+        </p>
+        <button class="estilos"><a class="catalogo" href="Estilos/Cortes.html" target="_blank">Mira nuestro catalogo de Cortes</a></button>
+      </section>
+
+      <section class="circulos">
+        <h3>Arreglo de barba</h3>
+        <div class="iconos">
+          <img class="icons" src="img/iconos/cuchilla.png">
+        </div>
+
+        <p class="título">
+          Mantén tu barba impecable con nuestros servicios de arreglo y perfilado. Utilizamos técnicas precisas y
+          productos de alta calidad para darle forma y definición, adaptándonos a la longitud y estilo que prefieras
+          para un acabado limpio y profesional.
+        </p>
+        
+        <button class="estilos"><a class="catalogo" href="Estilos/Barbas.html" target="_blank">Mira nuestro catalogo de Barbas</a></button>
+      </section>
+
+      <section class="circulos">
+        <h3>Cuidado facial</h3>
+        <div class="iconos">
+          <img class="icons" src="img/iconos/silla.png">
+          <!-- <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#000000"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-credit-card"
+            > -->
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M3 5m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3
+             3h-12a3 3 0 0 1 -3 -3z" />
+          <path d="M3 10l18 0" />
+          <path d="M7 15l.01 0" />
+          <path d="M11 15l2 0" />
+          </svg>
+        </div>
+
+        <p class="título">
+          Dale a tu rostro el cuidado que merece. Ofrecemos tratamientos faciales para limpiar, hidratar y revitalizar
+          tu piel, ayudando a eliminar impurezas y dejando un aspecto fresco y saludable. Ideal para complementar tu
+          estilo y mantener una apariencia radiante.
+        </p>
+        <button class="estilos"><a class="catalogo" href="https://mustaches-citas-reservar.mnz.dom.my.id/" target="_blank">Agenda tu cita</a></button>
+      </section>
+    </div>
+
+    <section>
+      <div class="mapa">
+        <h2 class="título">Nuestra Ubicación</h2>
+        <p class="título">¡Ven a visitarnos!</p>
+        <p class="título">Estamos en la Av. 11 E #2-29, Quinta Oriental, Cúcuta, Norte de Santander</p>
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15807.911537587754!2d-72.49030410000002!3d7.897378999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e66459240ce63f1%3A0x1699523ee852766f!2sMustaches!5e0!3m2!1ses!2sco!4v1731365719748!5m2!1ses!2sco"
+        width="600" height="450" style="border:1;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+
+    <section>
+      <h2 class="contacto título" id="contacto">Contacto</h2>
+
+      <form class="formulario">
+        <fieldset>
+          <legend>Contáctanos llenando todos los campos</legend>
+          <div class="campos">
+            <div class="campo">
+              <label>Nombre</label>
+              <input class="input-class" type="text" placeholder="Su Nombre" />
+            </div>
+
+            <div class="campo">
+              <label>Teléfono </label>
+              <input class="input-class" type="tel" placeholder="Su Teléfono" />
+            </div>
+
+            <div class="campo">
+              <label>Correo </label>
+              <input class="input-class" type="email" placeholder="Su Correo" />
+            </div>
+
+            <div class="campo">
+              <label>Mensaje </label>
+              <textarea class="input-class"> </textarea>
+            </div>
+
+            <div class="send alinear-derecha flex">
+              <button class="boton al100" type="submit">Enviar</button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="pie-info">
+        <p>©2024 - Mustache's. Todos los derechos reservados.</p>
+    </div>
+    <div>
+      <ul style="list-style-type: none;">
+        <li>
+          <a class="footMenu" href="https://mustaches-citas-reservar.mnz.dom.my.id/">Sistema de agendamiento</a>
+        </li>
+        <li>
+          <a class="footMenu" href="sobreNosotros.html">Sobre nosotros</a>
+        </li>
+        <li>
+          <a class="footMenu" href="Estilos/Cortes.html">Galería de cortes</a>
+        </li>
+        <li>
+          <a class="footMenu" href="Estilos/Barbas.html">Galería de barbas</a>
+        </li>
+      </ul>
+    </div>
+    <div class="redes-sociales">
+        <a href="https://www.instagram.com/mustaches01/profilecard/?igsh=eXRiN2R4Z3pqZDl5" target="_blank"><img class="instagram" src="img/ig.png" alt="instagram"></i></a>
+        <a href="https://www.facebook.com/barberiamustachescucuta" target="_blank"><img class="facebook" src="img/fb.png" alt="facebook"></a>
+    </div>
+</footer>
+</body>
+
+</html>
